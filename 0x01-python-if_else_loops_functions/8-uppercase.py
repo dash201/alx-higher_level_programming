@@ -13,6 +13,6 @@ def uppercase(str):
         if (i == len(str) - 1):
             m += myupper(str[i])
         else:
-           m += myupper(str[i])
+            m += myupper(str[i])
         i += 1
     print("{:s}".format(m))
