@@ -11,5 +11,5 @@ else:
         print(f"Last digit of {number:d} is {last:d} and is less than 6 and \
 not 0")
     else:
-        print(f"Last digit of {number:d} is -{(number * -1) % 10:d} and is less\
- than 6 and not 0")
+        print(f"Last digit of {number:d} is -{(number * -1) % 10:d} and is \
+less than 6 and not 0")
