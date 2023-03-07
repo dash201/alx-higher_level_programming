@@ -8,9 +8,11 @@ def myupper(c):
 
 def uppercase(str):
     i = 0
+    m = ""
     while (i < len(str)):
         if (i == len(str) - 1):
-            print("{:s}".format(myupper(str[i])))
+            m += myupper(str[i])
         else:
-            print("{:s}".format(myupper(str[i])), end="")
+           m += myupper(str[i])
         i += 1
+    print("{:s}".format(m))
