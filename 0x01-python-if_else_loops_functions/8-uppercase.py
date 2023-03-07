@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 def myupper(c):
-    if ord(c) in range(65, 91):
-        return c
-    elif ord(c) == 32:
-        return c
+    if ord(c) in range(97, 123):
+        return chr(ord(c) - 32)
     else:
-        return chr(ord(c)-32)
+        return c
 
 
 def uppercase(str):
