@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-for c in range(0, 11):
-    print("{:02d}".format(c), end=", ")
-for c in range(11, 90):
-    if c != 89:
-        print("{:d}".format(c), end=", ")
-    else:
-        print("{:d}".format(c))
+for i in range(0, 10):
+    for j in range(0, 10):
+        if i < j:
+            if (i * 10) + j < 89:
+                print(f"{i:d}{j:d}", end=", ")
+            else:
+                print(f"{i:d}{j:d}", end="")
+print("")
