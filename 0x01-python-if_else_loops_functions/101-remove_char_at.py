@@ -6,4 +6,4 @@ def remove_char_at(str, n):
             m += ""
         else:
             m += str[c]
-    print("{}".format(m))
+        return m
