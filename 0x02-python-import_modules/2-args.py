@@ -2,12 +2,12 @@
 if __name__ == "__main__":
     from sys import argv
 
-    l = len(argv) - 1
+    size = len(argv) - 1
     i = 1
-    if l == 0:
-        print("{} arguments.".format(l))
+    if size == 0:
+        print("{} arguments.".format(size))
     else:
-        print("{} arguments:".format(l))
+        print("{} arguments:".format(size))
         while(i <= l):
             print("{}: {}".format(i, argv[i]))
             i += 1
