@@ -8,6 +8,6 @@ if __name__ == "__main__":
         print("{} arguments.".format(size))
     else:
         print("{} arguments:".format(size))
-        while(i <= l):
+        while(i <= size):
             print("{}: {}".format(i, argv[i]))
             i += 1
