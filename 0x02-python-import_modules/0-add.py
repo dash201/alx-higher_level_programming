@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 import add_0
-print("{} + {} = {}".format(a, b, add(a, b)), end="\n")
+print("{} + {} = {}".format(1, 2, add(1, 2)), end="\n")
