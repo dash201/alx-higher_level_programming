@@ -12,4 +12,4 @@ def new_in_list(my_list, idx, element):
                 new_list.append(element)
             else:
                 new_list.append(my_list[i])
-                return (new_list)
+        return (new_list)
