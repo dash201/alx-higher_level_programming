@@ -3,9 +3,9 @@ def new_in_list(my_list, idx, element):
     size = len(my_list)
     new_list = []
     if idx < 0:
-        return (None)
+        return (my_list)
     elif idx > size:
-        return (None)
+        return (my_list)
     else:
         for i in range(0, size):
             if i == idx:
